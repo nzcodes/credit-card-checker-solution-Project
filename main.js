@@ -94,10 +94,10 @@ function idInvalidCardCompanies(invalidBatch) {
   }
   return companies;
 }
-
 console.log(idInvalidCardCompanies([invalid1])); // Should print['visa']
 console.log(idInvalidCardCompanies([invalid2])); // Should print ['mastercard']
 console.log(idInvalidCardCompanies(batch)); // Find out which companies have mailed out invalid cards
+
 
 
 
